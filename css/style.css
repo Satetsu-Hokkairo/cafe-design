@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  vertical-align: top;
+}
+
+.sec-title {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.text {
+  font-size: 15px;
+  text-align: left;
+}
+
+.mt-100 {
+  margin-top: 100px;
+}
+
+.boxShadow {
+  box-shadow: 0 0 20px -15px;
+}
+
+.header > img {
+  width: 100%;
+}
+
+.main {
+  text-align: center;
+}
+.main > [class*=wrap] {
+  max-width: 1140px;
+  margin: 100px auto 0 auto;
+}
+.main .wrap1 {
+  display: flex;
+  justify-content: space-around;
+}
+.main .wrap1__morning, .main .wrap1__night {
+  box-sizing: border-box;
+  padding: 22px 60px;
+  width: 450px;
+}
+.main .wrap2__seed, .main .wrap2__cooking {
+  padding: 0 190px;
+}
+.main .wrap2__seed .text, .main .wrap2__cooking .text {
+  padding-bottom: 50px;
+}
+.main .wrap3 {
+  max-width: none !important;
+  margin: 100px 0 0 0 !important;
+}
+.main .wrap3 > [class*=Menu] {
+  width: 100%;
+  max-height: 473px;
+  position: relative;
+}
+.main .wrap3 > [class*=Menu] > img {
+  width: 100%;
+  max-height: 500px;
+  object-fit: cover;
+}
+.main .wrap3__board {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 766px;
+  padding: 62px 203px;
+  background-color: rgba(255, 255, 255, 0.88);
+}
+.main .wrap3__board tbody tr {
+  margin-top: 10px;
+}
+.main .wrap3__board tbody:first-child {
+  margin-top: 20px;
+}
+.main .wrap3__board__title {
+  text-align: left;
+}
+.main .wrap4__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 115px;
+}
+.main .wrap4__information {
+  width: 450px;
+  box-sizing: border-box;
+  padding-left: 20px;
+}
+.main .wrap4__information__title {
+  padding-top: 10px;
+  margin-bottom: 5px;
+  border-bottom: 1px solid #000;
+  font-size: 18px;
+}
+.main .wrap4__information [class*=information] {
+  text-align: left;
+}
+.main .wrap4__centerLine {
+  width: 1px;
+  height: 230px;
+  background-color: #000;
+}
+.main .wrap4__maps {
+  margin: 60px auto;
+  width: 80%;
+  box-sizing: border-box;
+}
+.main .wrap4__contact {
+  margin: 100px auto;
+  width: 402px;
+}
+.main .wrap4__contact__title {
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+  border-bottom: 1px solid #000;
+  font-size: 18px;
+  font-weight: bold;
+}
+.main .wrap4__contact__text {
+  font-size: 36px;
+}
+
+.footer {
+  margin-top: 100px;
+}
+.footer__background {
+  display: flex;
+  align-items: center;
+  width: 100vw;
+  height: 50px;
+  background-color: #000;
+}
+.footer__text {
+  color: #fff;
+  margin-left: 20px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,57 @@
+@media screen and (max-width:800px) {
+    .main {
+        & .wrap1 {
+            flex-direction: column;
+            align-items: center;
+
+            &__morning,
+            &__night {
+                width: 80%;
+            }
+
+            &__night {
+                margin-top: 50px;
+            }
+        }
+
+        & .wrap3 {
+            &__board {
+                box-sizing: border-box;
+                width: 60%;
+                padding: 30px 69px;
+            }
+
+            &>[class*="Menu"] {
+                &>img {
+                    height: 390px;
+                }
+            }
+        }
+
+        & .wrap4 {
+            &__container {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            &__centerLine {
+                display: none;
+            }
+
+            &__maps {
+                margin: 60px auto;
+                width: 80%;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:570px) {
+    .main {
+        & .wrap3 {
+            &__board {
+                width: 75%;
+            }
+        }
+    }
+}

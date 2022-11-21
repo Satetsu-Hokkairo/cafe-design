@@ -1,0 +1,38 @@
+@media screen and (max-width: 800px) {
+  .main .wrap1 {
+    flex-direction: column;
+    align-items: center;
+  }
+  .main .wrap1__morning, .main .wrap1__night {
+    width: 80%;
+  }
+  .main .wrap1__night {
+    margin-top: 50px;
+  }
+  .main .wrap3__board {
+    box-sizing: border-box;
+    width: 60%;
+    padding: 30px 69px;
+  }
+  .main .wrap3 > [class*=Menu] > img {
+    height: 390px;
+  }
+  .main .wrap4__container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .main .wrap4__centerLine {
+    display: none;
+  }
+  .main .wrap4__maps {
+    margin: 60px auto;
+    width: 80%;
+  }
+}
+@media screen and (max-width: 570px) {
+  .main .wrap3__board {
+    width: 75%;
+  }
+}
+
+/*# sourceMappingURL=responsive.css.map */
